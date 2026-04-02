@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "megalosaio:item/au_colored_gold_nugget"
+  }
+}

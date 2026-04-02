@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "megalosaio:block/black_ash_log",
+    "side": "megalosaio:block/black_ash_log"
+  }
+}

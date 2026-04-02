@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "megalosaio:item/ti_gum_metal_nugget"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "megalosaio:block/black_ash_slab"
+    },
+    "type=double": {
+      "model": "megalosaio:block/black_ash_planks"
+    },
+    "type=top": {
+      "model": "megalosaio:block/black_ash_slab_top"
+    }
+  }
+}

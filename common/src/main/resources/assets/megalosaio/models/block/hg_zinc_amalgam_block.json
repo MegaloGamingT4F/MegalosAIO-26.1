@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "megalosaio:block/hg_zinc_amalgam_block"
+  }
+}

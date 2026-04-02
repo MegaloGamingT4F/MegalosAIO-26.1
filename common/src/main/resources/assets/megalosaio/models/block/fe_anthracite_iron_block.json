@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "megalosaio:block/fe_anthracite_iron_block"
+  }
+}

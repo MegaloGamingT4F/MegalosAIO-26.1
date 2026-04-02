@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "megalosaio:item/ni_inconel_ses_ingot"
+  }
+}

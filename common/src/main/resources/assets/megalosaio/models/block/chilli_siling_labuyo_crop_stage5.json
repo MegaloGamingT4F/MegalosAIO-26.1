@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crop",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "crop": "megalosaio:block/chilli_siling_labuyo_crop_stage5"
+  }
+}

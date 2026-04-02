@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "megalosaio:item/sc_scandium_hydride_nugget"
+  }
+}

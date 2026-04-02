@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "megalosaio:block/ti_titanium_hydride_block"
+  }
+}

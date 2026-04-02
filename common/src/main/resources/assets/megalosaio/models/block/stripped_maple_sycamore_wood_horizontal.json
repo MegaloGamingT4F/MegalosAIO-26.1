@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "megalosaio:block/stripped_maple_sycamore_log",
+    "side": "megalosaio:block/stripped_maple_sycamore_log"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "megalosaio:block/maple_sycamore_planks"
+  }
+}

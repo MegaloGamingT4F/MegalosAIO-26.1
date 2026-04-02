@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "megalosaio:block/maple_sycamore_slab"
+    },
+    "type=double": {
+      "model": "megalosaio:block/maple_sycamore_planks"
+    },
+    "type=top": {
+      "model": "megalosaio:block/maple_sycamore_slab_top"
+    }
+  }
+}

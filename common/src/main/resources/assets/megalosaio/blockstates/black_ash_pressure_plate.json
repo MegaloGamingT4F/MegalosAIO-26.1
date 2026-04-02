@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "megalosaio:block/black_ash_pressure_plate"
+    },
+    "powered=true": {
+      "model": "megalosaio:block/black_ash_pressure_plate_down"
+    }
+  }
+}

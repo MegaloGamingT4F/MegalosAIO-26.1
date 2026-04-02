@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "megalosaio:block/maple_sycamore_planks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "megalosaio:block/fe_reynolds_fto_block"
+    }
+  }
+}

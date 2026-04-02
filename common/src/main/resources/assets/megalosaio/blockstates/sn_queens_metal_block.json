@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "megalosaio:block/sn_queens_metal_block"
+    }
+  }
+}

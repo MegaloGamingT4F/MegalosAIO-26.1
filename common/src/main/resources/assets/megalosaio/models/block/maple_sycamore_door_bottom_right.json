@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "megalosaio:block/maple_sycamore_door_bottom",
+    "top": "megalosaio:block/maple_sycamore_door_top"
+  }
+}
