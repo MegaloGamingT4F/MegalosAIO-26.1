@@ -43,7 +43,7 @@ public final class ModItems {
             Item::new);
     public static final RegistryHandle<Item> HAFNIUM_INGOT = Services.REGISTRY.registerItem("hafnium_ingot",
             Item::new);
-    public static final RegistryHandle<Item> INDIUM_INGOT = Services.REGISTRY.registerItem("aindium_ingot",
+    public static final RegistryHandle<Item> INDIUM_INGOT = Services.REGISTRY.registerItem("indium_ingot",
             Item::new);
     public static final RegistryHandle<Item> IRIDIUM_INGOT = Services.REGISTRY.registerItem("iridium_ingot",
             Item::new);
@@ -59,7 +59,7 @@ public final class ModItems {
             Item::new);
     public static final RegistryHandle<Item> NICKEL_INGOT = Services.REGISTRY.registerItem("nickel_ingot",
             Item::new);
-    public static final RegistryHandle<Item> NIOBIUM_INGOT = Services.REGISTRY.registerItem("lithium_ingot",
+    public static final RegistryHandle<Item> NIOBIUM_INGOT = Services.REGISTRY.registerItem("niobium_ingot",
             Item::new);
     public static final RegistryHandle<Item> OSMIUM_INGOT = Services.REGISTRY.registerItem("osmium_ingot",
             Item::new);
@@ -143,7 +143,7 @@ public final class ModItems {
             Item::new);
     public static final RegistryHandle<Item> HAFNIUM_NUGGET = Services.REGISTRY.registerItem("hafnium_nugget",
             Item::new);
-    public static final RegistryHandle<Item> INDIUM_NUGGET = Services.REGISTRY.registerItem("aindium_nugget",
+    public static final RegistryHandle<Item> INDIUM_NUGGET = Services.REGISTRY.registerItem("indium_nugget",
             Item::new);
     public static final RegistryHandle<Item> IRIDIUM_NUGGET = Services.REGISTRY.registerItem("iridium_nugget",
             Item::new);
@@ -159,7 +159,7 @@ public final class ModItems {
             Item::new);
     public static final RegistryHandle<Item> NICKEL_NUGGET = Services.REGISTRY.registerItem("nickel_nugget",
             Item::new);
-    public static final RegistryHandle<Item> NIOBIUM_NUGGET = Services.REGISTRY.registerItem("lithium_nugget",
+    public static final RegistryHandle<Item> NIOBIUM_NUGGET = Services.REGISTRY.registerItem("niobium_nugget",
             Item::new);
     public static final RegistryHandle<Item> OSMIUM_NUGGET = Services.REGISTRY.registerItem("osmium_nugget",
             Item::new);
@@ -243,7 +243,7 @@ public final class ModItems {
             Item::new);
     public static final RegistryHandle<Item> HAFNIUM_DUST = Services.REGISTRY.registerItem("hafnium_dust",
             Item::new);
-    public static final RegistryHandle<Item> INDIUM_DUST = Services.REGISTRY.registerItem("aindium_dust",
+    public static final RegistryHandle<Item> INDIUM_DUST = Services.REGISTRY.registerItem("indium_dust",
             Item::new);
     public static final RegistryHandle<Item> IRIDIUM_DUST = Services.REGISTRY.registerItem("iridium_dust",
             Item::new);
@@ -259,7 +259,7 @@ public final class ModItems {
             Item::new);
     public static final RegistryHandle<Item> NICKEL_DUST = Services.REGISTRY.registerItem("nickel_dust",
             Item::new);
-    public static final RegistryHandle<Item> NIOBIUM_DUST = Services.REGISTRY.registerItem("lithium_dust",
+    public static final RegistryHandle<Item> NIOBIUM_DUST = Services.REGISTRY.registerItem("niobium_dust",
             Item::new);
     public static final RegistryHandle<Item> OSMIUM_DUST = Services.REGISTRY.registerItem("osmium_dust",
             Item::new);
