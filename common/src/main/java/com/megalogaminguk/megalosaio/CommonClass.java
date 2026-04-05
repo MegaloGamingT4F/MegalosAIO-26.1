@@ -1,5 +1,6 @@
 package com.megalogaminguk.megalosaio;
 
+import com.megalogaminguk.megalosaio.init.ModBlocks;
 import com.megalogaminguk.megalosaio.init.ModItems;
 import com.megalogaminguk.megalosaio.services.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -29,6 +30,7 @@ public class CommonClass {
             Constants.LOG.info("Hello to megalosaio");
         }
 
+        ModBlocks.load();
         ModItems.load();
     }
 }
