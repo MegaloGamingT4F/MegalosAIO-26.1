@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "megalosaio:aluminium"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "megalosaio:aluminium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "megalosaio:aluminium"
+      }
+    ]
+  }
+}

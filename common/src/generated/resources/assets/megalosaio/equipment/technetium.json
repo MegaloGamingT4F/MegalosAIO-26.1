@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "megalosaio:technetium"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "megalosaio:technetium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "megalosaio:technetium"
+      }
+    ]
+  }
+}
