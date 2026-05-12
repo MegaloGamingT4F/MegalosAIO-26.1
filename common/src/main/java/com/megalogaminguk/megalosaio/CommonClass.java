@@ -1,6 +1,7 @@
 package com.megalogaminguk.megalosaio;
 
 import com.megalogaminguk.megalosaio.init.ModBlocks;
+import com.megalogaminguk.megalosaio.init.ModCreativeTabs;
 import com.megalogaminguk.megalosaio.init.ModItems;
 import com.megalogaminguk.megalosaio.services.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -32,5 +33,6 @@ public class CommonClass {
 
         ModBlocks.load();
         ModItems.load();
+        ModCreativeTabs.load();
     }
 }

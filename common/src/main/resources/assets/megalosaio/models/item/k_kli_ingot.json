@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "megalosaio:item/k_kli_ingot"
-  }
-}

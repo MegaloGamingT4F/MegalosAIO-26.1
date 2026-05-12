@@ -9,6 +9,7 @@ public class MegalosAIONeoForge {
     public MegalosAIONeoForge(IEventBus eventBus){
         Constants.LOG.info("Hello NeoForge World!");
         CommonClass.init();
+        eventBus.addListener(MegalosAIODatagen::onGatherClientData);
         NeoForgeRegistryHelper.register(eventBus);
     }
 }

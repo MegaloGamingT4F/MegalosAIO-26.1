@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "megalosaio:block/ebony_log_top",
-    "side": "megalosaio:block/ebony_log"
-  }
-}

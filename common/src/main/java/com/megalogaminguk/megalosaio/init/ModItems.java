@@ -2,7 +2,11 @@ package com.megalogaminguk.megalosaio.init;
 
 import com.megalogaminguk.megalosaio.services.Services;
 import com.megalogaminguk.megalosaio.services.util.RegistryHandle;
+import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.equipment.ArmorType;
 
 public final class ModItems {
     private ModItems(){
@@ -74,6 +78,8 @@ public final class ModItems {
     public static final RegistryHandle<Item> RHENIUM_INGOT = Services.REGISTRY.registerItem("rhenium_ingot",
             Item::new);
     public static final RegistryHandle<Item> RHODIUM_INGOT = Services.REGISTRY.registerItem("rhodium_ingot",
+            Item::new);
+    public static final RegistryHandle<Item> RUBIDIUM_INGOT = Services.REGISTRY.registerItem("rubidium_ingot",
             Item::new);
     public static final RegistryHandle<Item> RUTHENIUM_INGOT = Services.REGISTRY.registerItem("ruthenium_ingot",
             Item::new);
@@ -175,6 +181,8 @@ public final class ModItems {
             Item::new);
     public static final RegistryHandle<Item> RHODIUM_NUGGET = Services.REGISTRY.registerItem("rhodium_nugget",
             Item::new);
+    public static final RegistryHandle<Item> RUBIDIUM_NUGGET = Services.REGISTRY.registerItem("rubidium_nugget",
+            Item::new);
     public static final RegistryHandle<Item> RUTHENIUM_NUGGET = Services.REGISTRY.registerItem("ruthenium_nugget",
             Item::new);
     public static final RegistryHandle<Item> SCANDIUM_NUGGET = Services.REGISTRY.registerItem("scandium_nugget",
@@ -275,6 +283,8 @@ public final class ModItems {
             Item::new);
     public static final RegistryHandle<Item> RHODIUM_DUST = Services.REGISTRY.registerItem("rhodium_dust",
             Item::new);
+    public static final RegistryHandle<Item> RUBIDIUM_DUST = Services.REGISTRY.registerItem("rubidium_dust",
+            Item::new);
     public static final RegistryHandle<Item> RUTHENIUM_DUST = Services.REGISTRY.registerItem("ruthenium_dust",
             Item::new);
     public static final RegistryHandle<Item> SCANDIUM_DUST = Services.REGISTRY.registerItem("scandium_dust",
@@ -321,9 +331,270 @@ public final class ModItems {
     public static final RegistryHandle<Item> COAL_DUST = Services.REGISTRY.registerItem("coal_dust",
             Item::new);
 
-    //Alloys
+    //Metallurgy - Raw
+    public static final RegistryHandle<Item> RAW_ALUMINIUM = Services.REGISTRY.registerItem("raw_aluminium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_ANTIMONY = Services.REGISTRY.registerItem("raw_antimony",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_ARSENIC = Services.REGISTRY.registerItem("raw_arsenic",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_BARIUM = Services.REGISTRY.registerItem("raw_barium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_BERYLLIUM = Services.REGISTRY.registerItem("raw_beryllium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_BISMUTH = Services.REGISTRY.registerItem("raw_bismuth",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_CADMIUM = Services.REGISTRY.registerItem("raw_cadmium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_CAESIUM = Services.REGISTRY.registerItem("raw_caesium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_CALCIUM = Services.REGISTRY.registerItem("raw_calcium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_CHROMIUM = Services.REGISTRY.registerItem("raw_chromium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_CINNABAR = Services.REGISTRY.registerItem("raw_cinnabar",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_COBALT = Services.REGISTRY.registerItem("raw_cobalt",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_GERMANIUM = Services.REGISTRY.registerItem("raw_germanium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_GALLIUM = Services.REGISTRY.registerItem("raw_gallium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_HAFNIUM = Services.REGISTRY.registerItem("raw_hafnium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_INDIUM = Services.REGISTRY.registerItem("raw_indium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_IRIDIUM = Services.REGISTRY.registerItem("raw_iridium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_LEAD = Services.REGISTRY.registerItem("raw_lead",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_LITHIUM = Services.REGISTRY.registerItem("raw_lithium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_MAGNESIUM = Services.REGISTRY.registerItem("raw_magnesium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_MANGANESE = Services.REGISTRY.registerItem("raw_manganese",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_MOLYBDENUM = Services.REGISTRY.registerItem("raw_molybdenum",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_NICKEL = Services.REGISTRY.registerItem("raw_nickel",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_NIOBIUM = Services.REGISTRY.registerItem("raw_niobium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_OSMIUM = Services.REGISTRY.registerItem("raw_osmium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_PALLADIUM = Services.REGISTRY.registerItem("raw_palladium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_PHOSPHORUS = Services.REGISTRY.registerItem("raw_phosphorus",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_PLATINUM = Services.REGISTRY.registerItem("raw_platinum",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_POTASSIUM = Services.REGISTRY.registerItem("raw_potassium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_RHENIUM = Services.REGISTRY.registerItem("raw_rhenium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_RHODIUM = Services.REGISTRY.registerItem("raw_rhodium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_RUBIDIUM = Services.REGISTRY.registerItem("raw_rubidium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_RUTHENIUM = Services.REGISTRY.registerItem("raw_ruthenium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_SCANDIUM = Services.REGISTRY.registerItem("raw_scandium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_SELENIUM = Services.REGISTRY.registerItem("raw_selenium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_SILICON = Services.REGISTRY.registerItem("raw_silicon",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_SILVER = Services.REGISTRY.registerItem("raw_silver",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_SODIUM = Services.REGISTRY.registerItem("raw_sodium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_STRONTIUM = Services.REGISTRY.registerItem("raw_strontium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_TANTALUM = Services.REGISTRY.registerItem("raw_tantalum",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_TECHNETIUM = Services.REGISTRY.registerItem("raw_technetium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_TELLURIUM = Services.REGISTRY.registerItem("raw_tellurium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_THALLIUM = Services.REGISTRY.registerItem("raw_thallium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_TIN = Services.REGISTRY.registerItem("raw_tin",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_TITANIUM = Services.REGISTRY.registerItem("raw_titanium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_TUNGSTEN = Services.REGISTRY.registerItem("raw_tungsten",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_VANADIUM = Services.REGISTRY.registerItem("raw_vanadium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_YTTRIUM = Services.REGISTRY.registerItem("raw_yttrium",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_ZINC = Services.REGISTRY.registerItem("raw_zinc",
+            Item::new);
+    public static final RegistryHandle<Item> RAW_ZIRCONIUM = Services.REGISTRY.registerItem("raw_zirconium",
+            Item::new);
 
-    //Nature & Gastronomy
+    //Aluminium Tools
+    public static final RegistryHandle<Item> ALUMINIUM_SWORD = Services.REGISTRY.registerItem("aluminium_sword",
+            properties -> new Item(properties.sword(ModToolMaterials.ALUMINIUM_TOOL_MATERIAL,3.0F, -2.4F)));
+    public static final RegistryHandle<Item> ALUMINIUM_PICKAXE = Services.REGISTRY.registerItem("aluminium_pickaxe",
+            properties -> new Item(properties.pickaxe(ModToolMaterials.ALUMINIUM_TOOL_MATERIAL,1.0F, -2.8F)));
+    public static final RegistryHandle<ShovelItem> ALUMINIUM_SHOVEL = Services.REGISTRY.registerItem("aluminium_shovel",
+            properties -> new ShovelItem(ModToolMaterials.ALUMINIUM_TOOL_MATERIAL,1.5F,-3.0F, properties));
+    public static final RegistryHandle<AxeItem> ALUMINIUM_AXE = Services.REGISTRY.registerItem("aluminium_axe",
+            properties -> new AxeItem(ModToolMaterials.ALUMINIUM_TOOL_MATERIAL,6.0F,-3.1F, properties));
+    public static final RegistryHandle<HoeItem> ALUMINIUM_HOE = Services.REGISTRY.registerItem("aluminium_hoe",
+            properties -> new HoeItem(ModToolMaterials.ALUMINIUM_TOOL_MATERIAL,-2.0F,-1.0F, properties));
 
-    //Technology
+    //Silver Tools
+    public static final RegistryHandle<Item> SILVER_SWORD = Services.REGISTRY.registerItem("silver_sword",
+            properties -> new Item(properties.sword(ModToolMaterials.SILVER_TOOL_MATERIAL,3.0F, -2.4F)));
+    public static final RegistryHandle<Item> SILVER_PICKAXE = Services.REGISTRY.registerItem("silver_pickaxe",
+            properties -> new Item(properties.pickaxe(ModToolMaterials.SILVER_TOOL_MATERIAL,1.0F, -2.8F)));
+    public static final RegistryHandle<ShovelItem> SILVER_SHOVEL = Services.REGISTRY.registerItem("silver_shovel",
+            properties -> new ShovelItem(ModToolMaterials.SILVER_TOOL_MATERIAL,1.5F,-3.0F, properties));
+    public static final RegistryHandle<AxeItem> SILVER_AXE = Services.REGISTRY.registerItem("silver_axe",
+            properties -> new AxeItem(ModToolMaterials.SILVER_TOOL_MATERIAL,6.0F,-3.1F, properties));
+    public static final RegistryHandle<HoeItem> SILVER_HOE = Services.REGISTRY.registerItem("silver_hoe",
+            properties -> new HoeItem(ModToolMaterials.SILVER_TOOL_MATERIAL,-2.0F,-1.0F, properties));
+
+    //Technetium Tools
+    public static final RegistryHandle<Item> TECHNETIUM_SWORD = Services.REGISTRY.registerItem("technetium_sword",
+            properties -> new Item(properties.sword(ModToolMaterials.TECHNETIUM_TOOL_MATERIAL,3.0F, -2.4F)));
+    public static final RegistryHandle<Item> TECHNETIUM_PICKAXE = Services.REGISTRY.registerItem("technetium_pickaxe",
+            properties -> new Item(properties.pickaxe(ModToolMaterials.TECHNETIUM_TOOL_MATERIAL,1.0F, -2.8F)));
+    public static final RegistryHandle<ShovelItem> TECHNETIUM_SHOVEL = Services.REGISTRY.registerItem("technetium_shovel",
+            properties -> new ShovelItem(ModToolMaterials.TECHNETIUM_TOOL_MATERIAL,1.5F,-3.0F, properties));
+    public static final RegistryHandle<AxeItem> TECHNETIUM_AXE = Services.REGISTRY.registerItem("technetium_axe",
+            properties -> new AxeItem(ModToolMaterials.TECHNETIUM_TOOL_MATERIAL,6.0F,-3.1F, properties));
+    public static final RegistryHandle<HoeItem> TECHINETIUM_HOE = Services.REGISTRY.registerItem("technetium_hoe",
+            properties -> new HoeItem(ModToolMaterials.TECHNETIUM_TOOL_MATERIAL,-2.0F,-1.0F, properties));
+
+    //Titanium Tools
+    public static final RegistryHandle<Item> TITANIUM_SWORD = Services.REGISTRY.registerItem("titanium_sword",
+            properties -> new Item(properties.sword(ModToolMaterials.TITANIUM_TOOL_MATERIAL,3.0F, -2.4F)));
+    public static final RegistryHandle<Item> TITANIUM_PICKAXE = Services.REGISTRY.registerItem("titanium_pickaxe",
+            properties -> new Item(properties.pickaxe(ModToolMaterials.TITANIUM_TOOL_MATERIAL,1.0F, -2.8F)));
+    public static final RegistryHandle<ShovelItem> TITANIUM_SHOVEL = Services.REGISTRY.registerItem("titanium_shovel",
+            properties -> new ShovelItem(ModToolMaterials.TITANIUM_TOOL_MATERIAL,1.5F,-3.0F, properties));
+    public static final RegistryHandle<AxeItem> TITANIUM_AXE = Services.REGISTRY.registerItem("titanium_axe",
+            properties -> new AxeItem(ModToolMaterials.TITANIUM_TOOL_MATERIAL,6.0F,-3.1F, properties));
+    public static final RegistryHandle<HoeItem> TITANIUM_HOE = Services.REGISTRY.registerItem("titanium_hoe",
+            properties -> new HoeItem(ModToolMaterials.TITANIUM_TOOL_MATERIAL,-2.0F,-1.0F, properties));
+
+    //Armor
+    public static final RegistryHandle<Item> ALUMINIUM_HELMET = Services.REGISTRY.registerItem("aluminium_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.ALUMINIUM_ARMOR_MATERIAL, ArmorType.HELMET)));
+    public static final RegistryHandle<Item> ALUMINIUM_CHESTPLATE = Services.REGISTRY.registerItem("aluminium_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.ALUMINIUM_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+    public static final RegistryHandle<Item> ALUMINIUM_LEGGINGS = Services.REGISTRY.registerItem("aluminium_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.ALUMINIUM_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+    public static final RegistryHandle<Item> ALUMINIUM_BOOTS = Services.REGISTRY.registerItem("aluminium_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.ALUMINIUM_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
+    public static final RegistryHandle<Item> SILVER_HELMET = Services.REGISTRY.registerItem("silver_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorType.HELMET)));
+    public static final RegistryHandle<Item> SILVER_CHESTPLATE = Services.REGISTRY.registerItem("silver_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+    public static final RegistryHandle<Item> SILVER_LEGGINGS = Services.REGISTRY.registerItem("silver_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+    public static final RegistryHandle<Item> SILVER_BOOTS = Services.REGISTRY.registerItem("silver_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.SILVER_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
+    public static final RegistryHandle<Item> TECHNETIUM_HELMET = Services.REGISTRY.registerItem("technetium_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TECHNETIUM_ARMOR_MATERIAL, ArmorType.HELMET)));
+    public static final RegistryHandle<Item> TECHNETIUM_CHESTPLATE = Services.REGISTRY.registerItem("technetium_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TECHNETIUM_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+    public static final RegistryHandle<Item> TECHNETIUM_LEGGINGS = Services.REGISTRY.registerItem("technetium_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TECHNETIUM_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+    public static final RegistryHandle<Item> TECHNETIUM_BOOTS = Services.REGISTRY.registerItem("technetium_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TECHNETIUM_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
+    public static final RegistryHandle<Item> TITANIUM_HELMET = Services.REGISTRY.registerItem("titanium_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorType.HELMET)));
+    public static final RegistryHandle<Item> TITANIUM_CHESTPLATE = Services.REGISTRY.registerItem("titanium_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+    public static final RegistryHandle<Item> TITANIUM_LEGGINGS = Services.REGISTRY.registerItem("titanium_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+    public static final RegistryHandle<Item> TITANIUM_BOOTS = Services.REGISTRY.registerItem("titanium_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.TITANIUM_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
+    //Tool and Armor Parts
+    public static final RegistryHandle<Item> ALUMINIUM_AXEHEAD = Services.REGISTRY.registerItem("aluminium_axehead",
+            Item::new);
+    public static final RegistryHandle<Item> ALUMINIUM_BLADE = Services.REGISTRY.registerItem("aluminium_blade",
+            Item::new);
+    public static final RegistryHandle<Item> ALUMINIUM_GUARD = Services.REGISTRY.registerItem("aluminium_guard",
+            Item::new);
+    public static final RegistryHandle<Item> ALUMINIUM_HILT = Services.REGISTRY.registerItem("aluminium_hilt",
+            Item::new);
+    public static final RegistryHandle<Item> ALUMINIUM_SHOVELHEAD = Services.REGISTRY.registerItem("aluminium_shovelhead",
+            Item::new);
+    public static final RegistryHandle<Item> ALUMINIUM_POMMEL = Services.REGISTRY.registerItem("aluminium_pommel",
+            Item::new);
+    public static final RegistryHandle<Item> ALUMINIUM_PICK = Services.REGISTRY.registerItem("aluminium_pick",
+            Item::new);
+    public static final RegistryHandle<Item> ALUMINIUM_PLATE = Services.REGISTRY.registerItem("aluminium_plate",
+            Item::new);
+
+    public static final RegistryHandle<Item> SILVER_AXEHEAD = Services.REGISTRY.registerItem("silver_axehead",
+            Item::new);
+    public static final RegistryHandle<Item> SILVER_BLADE = Services.REGISTRY.registerItem("silver_blade",
+            Item::new);
+    public static final RegistryHandle<Item> SILVER_GUARD = Services.REGISTRY.registerItem("silver_guard",
+            Item::new);
+    public static final RegistryHandle<Item> SILVER_HILT = Services.REGISTRY.registerItem("silver_hilt",
+            Item::new);
+    public static final RegistryHandle<Item> SILVER_SHOVELHEAD = Services.REGISTRY.registerItem("silver_shovelhead",
+            Item::new);
+    public static final RegistryHandle<Item> SILVER_POMMEL = Services.REGISTRY.registerItem("silver_pommel",
+            Item::new);
+    public static final RegistryHandle<Item> SILVER_PICK = Services.REGISTRY.registerItem("silver_pick",
+            Item::new);
+    public static final RegistryHandle<Item> SILVER_PLATE = Services.REGISTRY.registerItem("silver_plate",
+            Item::new);
+
+    public static final RegistryHandle<Item> TECHNETIUM_AXEHEAD = Services.REGISTRY.registerItem("technetium_axehead",
+            Item::new);
+    public static final RegistryHandle<Item> TECHNETIUM_BLADE = Services.REGISTRY.registerItem("technetium_blade",
+            Item::new);
+    public static final RegistryHandle<Item> TECHNETIUM_GUARD = Services.REGISTRY.registerItem("technetium_guard",
+            Item::new);
+    public static final RegistryHandle<Item> TECHNETIUM_HILT = Services.REGISTRY.registerItem("technetium_hilt",
+            Item::new);
+    public static final RegistryHandle<Item> TECHNETIUM_SHOVELHEAD = Services.REGISTRY.registerItem("technetium_shovelhead",
+            Item::new);
+    public static final RegistryHandle<Item> TECHNETIUM_POMMEL = Services.REGISTRY.registerItem("technetium_pommel",
+            Item::new);
+    public static final RegistryHandle<Item> TECHNETIUM_PICK = Services.REGISTRY.registerItem("technetium_pick",
+            Item::new);
+    public static final RegistryHandle<Item> TECHNETIUM_PLATE = Services.REGISTRY.registerItem("technetium_plate",
+            Item::new);
+
+    public static final RegistryHandle<Item> TITANIUM_AXEHEAD = Services.REGISTRY.registerItem("titanium_axehead",
+            Item::new);
+    public static final RegistryHandle<Item> TITANIUM_BLADE = Services.REGISTRY.registerItem("titanium_blade",
+            Item::new);
+    public static final RegistryHandle<Item> TITANIUM_GUARD = Services.REGISTRY.registerItem("titanium_guard",
+            Item::new);
+    public static final RegistryHandle<Item> TITANIUM_HILT = Services.REGISTRY.registerItem("titanium_hilt",
+            Item::new);
+    public static final RegistryHandle<Item> TITANIUM_SHOVELHEAD = Services.REGISTRY.registerItem("titanium_shovelhead",
+            Item::new);
+    public static final RegistryHandle<Item> TITANIUM_POMMEL = Services.REGISTRY.registerItem("titanium_pommel",
+            Item::new);
+    public static final RegistryHandle<Item> TITANIUM_PICK = Services.REGISTRY.registerItem("titanium_pick",
+            Item::new);
+    public static final RegistryHandle<Item> TITANIUM_PLATE = Services.REGISTRY.registerItem("titanium_plate",
+            Item::new);
+
+    public static final RegistryHandle<Item> FABRIC_STRAP = Services.REGISTRY.registerItem("fabric_strap",
+            Item::new);
+    public static final RegistryHandle<Item> FABRIC_GRIP = Services.REGISTRY.registerItem("fabric_grip",
+            Item::new);
+    public static final RegistryHandle<Item> LEATHER_STRAP = Services.REGISTRY.registerItem("leather_strap",
+            Item::new);
+    public static final RegistryHandle<Item> LEATHER_GRIP = Services.REGISTRY.registerItem("leather_grip",
+            Item::new);
+    public static final RegistryHandle<Item> ARMOUR_PADDING = Services.REGISTRY.registerItem("armour_padding",
+            Item::new);
 }

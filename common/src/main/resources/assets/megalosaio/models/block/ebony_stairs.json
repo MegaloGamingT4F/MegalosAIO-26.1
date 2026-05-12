@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/stairs",
-  "textures": {
-    "bottom": "megalosaio:block/ebony_planks",
-    "side": "megalosaio:block/ebony_planks",
-    "top": "megalosaio:block/ebony_planks"
-  }
-}
