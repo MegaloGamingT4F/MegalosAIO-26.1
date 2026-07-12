@@ -11,76 +11,22 @@ public final class ModBlocks {
     public static void load(){
     }
 
-    //Ore
+    //Ore - Overworld
     public static final BlockWithItemRegistryHandle<Block> ALUMINIUM_ORE = Services.REGISTRY.registerBlockWithItem("aluminium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> ANTIMONY_ORE = Services.REGISTRY.registerBlockWithItem("antimony_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> ARSENIC_ORE = Services.REGISTRY.registerBlockWithItem("arsenic_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> BARIUM_ORE = Services.REGISTRY.registerBlockWithItem("barium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> BERYLLIUM_ORE = Services.REGISTRY.registerBlockWithItem("beryllium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> BISMUTH_ORE = Services.REGISTRY.registerBlockWithItem("bismuth_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> CADMIUM_ORE = Services.REGISTRY.registerBlockWithItem("cadmium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> CAESIUM_ORE = Services.REGISTRY.registerBlockWithItem("caesium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> CALCIUM_ORE = Services.REGISTRY.registerBlockWithItem("calcium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> CHROMIUM_ORE = Services.REGISTRY.registerBlockWithItem("chromium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> CINNABAR_ORE = Services.REGISTRY.registerBlockWithItem("cinnabar_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> COBALT_ORE = Services.REGISTRY.registerBlockWithItem("cobalt_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> GERMANIUM_ORE = Services.REGISTRY.registerBlockWithItem("germanium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> GALLIUM_ORE = Services.REGISTRY.registerBlockWithItem("gallium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> HAFNIUM_ORE = Services.REGISTRY.registerBlockWithItem("hafnium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> INDIUM_ORE = Services.REGISTRY.registerBlockWithItem("indium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> IRIDIUM_ORE = Services.REGISTRY.registerBlockWithItem("iridium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> LEAD_ORE = Services.REGISTRY.registerBlockWithItem("lead_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> LITHIUM_ORE = Services.REGISTRY.registerBlockWithItem("lithium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> MAGNESIUM_ORE = Services.REGISTRY.registerBlockWithItem("magnesium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> MANGANESE_ORE = Services.REGISTRY.registerBlockWithItem("manganese_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> MOLYBDENUM_ORE = Services.REGISTRY.registerBlockWithItem("molybdenum_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> NICKEL_ORE = Services.REGISTRY.registerBlockWithItem("nickel_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> NIOBIUM_ORE = Services.REGISTRY.registerBlockWithItem("niobium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> OSMIUM_ORE = Services.REGISTRY.registerBlockWithItem("osmium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> PALLADIUM_ORE = Services.REGISTRY.registerBlockWithItem("palladium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> PHOSPHORUS_ORE = Services.REGISTRY.registerBlockWithItem("phosphorus_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> PLATINUM_ORE = Services.REGISTRY.registerBlockWithItem("platinum_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> POTASSIUM_ORE = Services.REGISTRY.registerBlockWithItem("potassium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> RHENIUM_ORE = Services.REGISTRY.registerBlockWithItem("rhenium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> RHODIUM_ORE = Services.REGISTRY.registerBlockWithItem("rhodium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> RUBIDIUM_ORE = Services.REGISTRY.registerBlockWithItem("rubidium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> RUTHENIUM_ORE = Services.REGISTRY.registerBlockWithItem("ruthenium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> SCANDIUM_ORE = Services.REGISTRY.registerBlockWithItem("scandium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> SELENIUM_ORE = Services.REGISTRY.registerBlockWithItem("selenium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> SILICON_ORE = Services.REGISTRY.registerBlockWithItem("silicon_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
@@ -88,7 +34,69 @@ public final class ModBlocks {
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> SODIUM_ORE = Services.REGISTRY.registerBlockWithItem("sodium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> STRONTIUM_ORE = Services.REGISTRY.registerBlockWithItem("strontium_ore",
+    public static final BlockWithItemRegistryHandle<Block> TIN_ORE = Services.REGISTRY.registerBlockWithItem("tin_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> TITANIUM_ORE = Services.REGISTRY.registerBlockWithItem("titanium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> ZINC_ORE = Services.REGISTRY.registerBlockWithItem("zinc_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> ZIRCONIUM_ORE = Services.REGISTRY.registerBlockWithItem("zirconium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+
+    //Ore - Deepslate
+    public static final BlockWithItemRegistryHandle<Block> ANTIMONY_ORE = Services.REGISTRY.registerBlockWithItem("antimony_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> BISMUTH_ORE = Services.REGISTRY.registerBlockWithItem("bismuth_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> CADMIUM_ORE = Services.REGISTRY.registerBlockWithItem("cadmium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> CHROMIUM_ORE = Services.REGISTRY.registerBlockWithItem("chromium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> COBALT_ORE = Services.REGISTRY.registerBlockWithItem("cobalt_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> GALLIUM_ORE = Services.REGISTRY.registerBlockWithItem("gallium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> IRIDIUM_ORE = Services.REGISTRY.registerBlockWithItem("iridium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> MANGANESE_ORE = Services.REGISTRY.registerBlockWithItem("manganese_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> MOLYBDENUM_ORE = Services.REGISTRY.registerBlockWithItem("molybdenum_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> PALLADIUM_ORE = Services.REGISTRY.registerBlockWithItem("palladium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> POTASSIUM_ORE = Services.REGISTRY.registerBlockWithItem("potassium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> RUTHENIUM_ORE = Services.REGISTRY.registerBlockWithItem("ruthenium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> THALLIUM_ORE = Services.REGISTRY.registerBlockWithItem("thallium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> TUNGSTEN_ORE = Services.REGISTRY.registerBlockWithItem("tungsten_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+
+    //Ore - Nether
+    public static final BlockWithItemRegistryHandle<Block> ARSENIC_ORE = Services.REGISTRY.registerBlockWithItem("arsenic_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> BARIUM_ORE = Services.REGISTRY.registerBlockWithItem("barium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> BERYLLIUM_ORE = Services.REGISTRY.registerBlockWithItem("beryllium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> CAESIUM_ORE = Services.REGISTRY.registerBlockWithItem("caesium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> GERMANIUM_ORE = Services.REGISTRY.registerBlockWithItem("germanium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> HAFNIUM_ORE = Services.REGISTRY.registerBlockWithItem("hafnium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> INDIUM_ORE = Services.REGISTRY.registerBlockWithItem("indium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> NIOBIUM_ORE = Services.REGISTRY.registerBlockWithItem("niobium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> PHOSPHORUS_ORE = Services.REGISTRY.registerBlockWithItem("phosphorus_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> RHENIUM_ORE = Services.REGISTRY.registerBlockWithItem("rhenium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> RHODIUM_ORE = Services.REGISTRY.registerBlockWithItem("rhodium_ore",
+            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
+    public static final BlockWithItemRegistryHandle<Block> SELENIUM_ORE = Services.REGISTRY.registerBlockWithItem("selenium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> TANTALUM_ORE = Services.REGISTRY.registerBlockWithItem("tantalum_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
@@ -96,21 +104,19 @@ public final class ModBlocks {
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> TELLURIUM_ORE = Services.REGISTRY.registerBlockWithItem("tellurium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> THALLIUM_ORE = Services.REGISTRY.registerBlockWithItem("thallium_ore",
+
+    //Ore - End
+    public static final BlockWithItemRegistryHandle<Block> LITHIUM_ORE = Services.REGISTRY.registerBlockWithItem("lithium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> TIN_ORE = Services.REGISTRY.registerBlockWithItem("tin_ore",
+    public static final BlockWithItemRegistryHandle<Block> RUBIDIUM_ORE = Services.REGISTRY.registerBlockWithItem("rubidium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> TITANIUM_ORE = Services.REGISTRY.registerBlockWithItem("titanium_ore",
+    public static final BlockWithItemRegistryHandle<Block> SCANDIUM_ORE = Services.REGISTRY.registerBlockWithItem("scandium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> TUNGSTEN_ORE = Services.REGISTRY.registerBlockWithItem("tungsten_ore",
+    public static final BlockWithItemRegistryHandle<Block> STRONTIUM_ORE = Services.REGISTRY.registerBlockWithItem("strontium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> VANADIUM_ORE = Services.REGISTRY.registerBlockWithItem("vanadium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
     public static final BlockWithItemRegistryHandle<Block> YTTRIUM_ORE = Services.REGISTRY.registerBlockWithItem("yttrium_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> ZINC_ORE = Services.REGISTRY.registerBlockWithItem("zinc_ore",
-            properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
-    public static final BlockWithItemRegistryHandle<Block> ZIRCONIUM_ORE = Services.REGISTRY.registerBlockWithItem("zirconium_ore",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
 
     //Block
@@ -317,5 +323,8 @@ public final class ModBlocks {
     public static final BlockWithItemRegistryHandle<Block> RAW_ZIRCONIUM_BLOCK = Services.REGISTRY.registerBlockWithItem("raw_zirconium_block",
             properties -> new Block(properties.strength(3.0F).requiresCorrectToolForDrops()));
 
-
+    private static BlockWithItemRegistryHandle<Block> createOreBlock(String name) {
+        return Services.REGISTRY.registerBlockWithItem(name,
+                properties -> new Block(properties.strength(3.0F,3.0F).requiresCorrectToolForDrops()));
+    }
 }

@@ -4,6 +4,7 @@ import com.megalogaminguk.megalosaio.init.ModBlocks;
 import com.megalogaminguk.megalosaio.init.ModCreativeTabs;
 import com.megalogaminguk.megalosaio.init.ModItems;
 import com.megalogaminguk.megalosaio.services.Services;
+import com.megalogaminguk.megalosaio.worldgen.MegalosAIOWorldGen;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
 
@@ -34,5 +35,6 @@ public class CommonClass {
         ModBlocks.load();
         ModItems.load();
         ModCreativeTabs.load();
+        MegalosAIOWorldGen.load();
     }
 }

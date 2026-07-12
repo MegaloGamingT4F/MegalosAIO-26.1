@@ -179,6 +179,58 @@ public class MegalosAIOEnglishLanguageProvider extends LanguageProvider {
         add(ModItems.GOLD_DUST.get(), "Gold Dust");
         add(ModItems.COAL_DUST.get(), "Coal Dust");
 
+        //Items - Raw
+        add(ModItems.RAW_ALUMINIUM.get(), "Raw Aluminium");
+        add(ModItems.RAW_ANTIMONY.get(), "Raw Antimony");
+        add(ModItems.RAW_ARSENIC.get(), "Raw Arsenic");
+        add(ModItems.RAW_BARIUM.get(), "Raw Barium");
+        add(ModItems.RAW_BERYLLIUM.get(), "Raw Beryllium");
+        add(ModItems.RAW_BISMUTH.get(), "Raw Bismuth");
+        add(ModItems.RAW_CADMIUM.get(), "Raw Cadmium");
+        add(ModItems.RAW_CALCIUM.get(), "Raw Calcium");
+        add(ModItems.RAW_CAESIUM.get(), "Raw Caesium");
+        add(ModItems.RAW_CHROMIUM.get(), "Raw Chromium");
+        add(ModItems.RAW_CINNABAR.get(), "Raw Mercury");
+        add(ModItems.RAW_COBALT.get(), "Raw Cobalt");
+        add(ModItems.RAW_GERMANIUM.get(), "Raw Germanium");
+        add(ModItems.RAW_GALLIUM.get(), "Raw Gallium");
+        add(ModItems.RAW_HAFNIUM.get(), "Raw Hafnium");
+        add(ModItems.RAW_INDIUM.get(), "Raw Indium");
+        add(ModItems.RAW_IRIDIUM.get(), "Raw Iridium");
+        add(ModItems.RAW_LEAD.get(), "Raw Lead");
+        add(ModItems.RAW_LITHIUM.get(), "Raw Lithium");
+        add(ModItems.RAW_MAGNESIUM.get(), "Raw Magnesium");
+        add(ModItems.RAW_MANGANESE.get(), "Raw Manganese");
+        add(ModItems.RAW_MOLYBDENUM.get(), "Raw Molybdenum");
+        add(ModItems.RAW_NICKEL.get(), "Raw Nickel");
+        add(ModItems.RAW_NIOBIUM.get(), "Raw Niobium");
+        add(ModItems.RAW_OSMIUM.get(), "Raw Osmium");
+        add(ModItems.RAW_PALLADIUM.get(), "Raw Palladium");
+        add(ModItems.RAW_PHOSPHORUS.get(), "Raw Phosphorus");
+        add(ModItems.RAW_PLATINUM.get(), "Raw Platinum");
+        add(ModItems.RAW_POTASSIUM.get(), "Raw Potassium");
+        add(ModItems.RAW_RHENIUM.get(), "Raw Rhenium");
+        add(ModItems.RAW_RHODIUM.get(), "Raw Rhodium");
+        add(ModItems.RAW_RUBIDIUM.get(), "Raw Rubidium");
+        add(ModItems.RAW_RUTHENIUM.get(), "Raw Ruthenium");
+        add(ModItems.RAW_SCANDIUM.get(), "Raw Scandium");
+        add(ModItems.RAW_SELENIUM.get(), "Raw Selenium");
+        add(ModItems.RAW_SILICON.get(), "Raw Silicon");
+        add(ModItems.RAW_SILVER.get(), "Raw Silver");
+        add(ModItems.RAW_SODIUM.get(), "Raw Sodium");
+        add(ModItems.RAW_STRONTIUM.get(), "Raw Strontium");
+        add(ModItems.RAW_TANTALUM.get(), "Raw Tantalum");
+        add(ModItems.RAW_TECHNETIUM.get(), "Raw Technetium");
+        add(ModItems.RAW_TELLURIUM.get(), "Raw Tellurium");
+        add(ModItems.RAW_THALLIUM.get(), "Raw Thallium");
+        add(ModItems.RAW_TIN.get(), "Raw Tin");
+        add(ModItems.RAW_TITANIUM.get(), "Raw Titanium");
+        add(ModItems.RAW_TUNGSTEN.get(), "Raw Tungsten");
+        add(ModItems.RAW_VANADIUM.get(), "Raw Vanadium");
+        add(ModItems.RAW_YTTRIUM.get(), "Raw Yttrium");
+        add(ModItems.RAW_ZINC.get(), "Raw Zinc");
+        add(ModItems.RAW_ZIRCONIUM.get(), "Raw Zirconium");
+
         //***Blocks***
         //Blocks - Ore
         add(ModBlocks.ALUMINIUM_ORE.block().get(), "Aluminium Ore");
@@ -518,7 +570,7 @@ public class MegalosAIOEnglishLanguageProvider extends LanguageProvider {
         add(ModItems.TECHNETIUM_PICKAXE.get(),"Technetium Pickaxe");
         add(ModItems.TECHNETIUM_SHOVEL.get(),"Technetium Shovel");
         add(ModItems.TECHNETIUM_AXE.get(),"Technetium Axe");
-        add(ModItems.TECHINETIUM_HOE.get(),"Technetium Hoe");
+        add(ModItems.TECHNETIUM_HOE.get(),"Technetium Hoe");
         add(ModItems.TECHNETIUM_HELMET.get(),"Technetium Helmet");
         add(ModItems.TECHNETIUM_CHESTPLATE.get(),"Technetium Chestplate");
         add(ModItems.TECHNETIUM_LEGGINGS.get(),"Technetium Leggings");

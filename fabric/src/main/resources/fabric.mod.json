@@ -8,7 +8,7 @@
         "${mod_author}"
     ],
     "license": "${license}",
-    "icon": "${mod_id}.png",
+    "icon": "assets/megalosaio/megalosaio_icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [

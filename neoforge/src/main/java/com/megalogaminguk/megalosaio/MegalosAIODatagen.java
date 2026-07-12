@@ -1,6 +1,7 @@
 package com.megalogaminguk.megalosaio;
 
 import com.megalogaminguk.megalosaio.datagen.*;
+import com.megalogaminguk.megalosaio.datagen.recipes.MegalosAIORecipeProvider;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 public final class MegalosAIODatagen {
@@ -15,5 +16,7 @@ public final class MegalosAIODatagen {
         event.createProvider(MegalosAIOLootTableProvider::new);
         event.createProvider(MegalosAIOItemTagsProvider::new);
         event.createProvider(MegalosAIOEquipmentAssetProvider::new);
+        event.createProvider(MegalosAIORecipeProvider.Runner::new);
+        event.createProvider(MegalosAIOWorldGenProvider::new);
     }
 }

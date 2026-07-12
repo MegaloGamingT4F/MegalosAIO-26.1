@@ -14,7 +14,7 @@ public final class ModCreativeTabs {
     }
 
     public static final RegistryHandle<CreativeModeTab> MEGALOS_AIO_TAB =
-            Services.REGISTRY.registerCreativeTab("megalos_aio_tab", () -> new ItemStack(ModItems.ALUMINIUM_INGOT.get()),
+            Services.REGISTRY.registerCreativeTab("megalos_aio_tab", () -> new ItemStack(ModBlocks.ALUMINIUM_ORE.block().get()),
                     output -> BuiltInRegistries.ITEM.stream()
                             .filter(item -> Objects.equals(BuiltInRegistries.ITEM.getKey(item)
                                     .getNamespace(), Constants.MOD_ID))

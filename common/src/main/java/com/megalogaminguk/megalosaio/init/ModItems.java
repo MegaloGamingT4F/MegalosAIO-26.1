@@ -466,7 +466,7 @@ public final class ModItems {
             properties -> new ShovelItem(ModToolMaterials.TECHNETIUM_TOOL_MATERIAL,1.5F,-3.0F, properties));
     public static final RegistryHandle<AxeItem> TECHNETIUM_AXE = Services.REGISTRY.registerItem("technetium_axe",
             properties -> new AxeItem(ModToolMaterials.TECHNETIUM_TOOL_MATERIAL,6.0F,-3.1F, properties));
-    public static final RegistryHandle<HoeItem> TECHINETIUM_HOE = Services.REGISTRY.registerItem("technetium_hoe",
+    public static final RegistryHandle<HoeItem> TECHNETIUM_HOE = Services.REGISTRY.registerItem("technetium_hoe",
             properties -> new HoeItem(ModToolMaterials.TECHNETIUM_TOOL_MATERIAL,-2.0F,-1.0F, properties));
 
     //Titanium Tools
